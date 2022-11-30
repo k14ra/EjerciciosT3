@@ -1,0 +1,37 @@
+PERSONA
+- nombre
+- apellidos
+- dni
+- cocheSemana
+- cocheFindeSem
+
+
+COCHE
+- color
+- matricula
+- fechaCompra
+- seguro
+- CV  (caballos de vapor)
+
+SEGURO
+- fechaRenovacion
+- Precio
+----------------
+if (CV >= 50 && CV <= 100) --> 400€
+if (CV > 100 && CV <= 500) --> 500€
+if (CV > 115) --> 700€
+
+
+HACER: getters y setters + toString() +
+
+---------------------------------------------------------
+
+añadir ahora clase VEHICULO y MOTO
+ahora coche solo tiene el atributo CV
+moto solo tiene el atribujo CC (para diferenciar motos y coches)
+
+Vehiculo tiene
+- color
+- matricula
+- fechaCompra
+- seguro
